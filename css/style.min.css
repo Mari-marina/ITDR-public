@@ -535,7 +535,6 @@ p, h2, h3 {
   .footer__wrapper {
     flex-direction: column;
     padding: 32px 0 16px;
-    padding-top: 0px;
   }
 }
 .footer__item {
@@ -620,7 +619,7 @@ p, h2, h3 {
 .footer__small {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 24px;
+  padding-bottom: 24px;
 }
 .footer__small__text {
   color: #fff;
@@ -633,6 +632,11 @@ p, h2, h3 {
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
+  }
+}
+@media all and (max-width: 700px) {
+  .footer__small__text:last-child {
+    margin-top: 10px;
   }
 }
 @media all and (max-width: 700px) {
@@ -656,7 +660,7 @@ p, h2, h3 {
   .footer__img_second {
     position: relative;
     display: block;
-    top: 0;
+    top: 0px;
   }
 }
 .footer__item_img {
@@ -683,6 +687,163 @@ p, h2, h3 {
 @media all and (max-width: 1400px) {
   .menu__item:last-child {
     display: none;
+  }
+}
+
+.error {
+  margin: 0 auto;
+  padding-top: 247px;
+}
+@media all and (max-width: 1660px) {
+  .error {
+    padding-top: 200px;
+  }
+}
+.error__subtitle {
+  font-family: Gilroy-Bold;
+}
+.error__text {
+  font-family: Gilroy-Bold;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+@media all and (max-width: 1660px) {
+  .error__text {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 42px;
+  }
+}
+@media all and (max-width: 900px) {
+  .error__text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 30px;
+    text-align: center;
+  }
+}
+@media all and (max-width: 500px) {
+  .error__text {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+}
+.error__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media all and (max-width: 500px) {
+  .error__wrapper {
+    max-width: 363px;
+    width: 100%;
+  }
+}
+@media all and (max-width: 1660px) {
+  .error__img {
+    width: 550px;
+  }
+}
+@media all and (max-width: 1660px) and (max-width: 900px) {
+  .error__img {
+    max-width: 400px;
+    width: 100%;
+  }
+}
+.error__subtitle {
+  margin: 72px 0 20px;
+}
+.error__btn {
+  background: #6000DB;
+  color: #fff;
+  height: 84px;
+  max-width: 428px;
+  width: 100%;
+  margin: 74px 0 137px;
+}
+@media all and (max-width: 1660px) {
+  .error__btn {
+    margin: 54px 0 100px;
+  }
+}
+@media all and (max-width: 900px) {
+  .error__btn {
+    margin: 34px 0 70px;
+  }
+}
+@media all and (max-width: 500px) {
+  .error__btn {
+    margin: 48px 0 286px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 24px !important;
+    height: 56px;
+    max-width: 304px;
+  }
+}
+@media all and (max-width: 400px) {
+  .error__btn {
+    font-size: 18px !important;
+  }
+}
+
+.policy__subtitle {
+  padding: 210px 0 48px;
+}
+@media all and (max-width: 1660px) {
+  .policy__subtitle {
+    padding: 140px 0 48px;
+  }
+}
+@media all and (max-width: 700px) {
+  .policy__subtitle {
+    padding: 120px 0 40px;
+  }
+}
+.policy__description {
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 34px;
+  color: #131313;
+  margin-bottom: 24px;
+}
+@media all and (max-width: 1560px) {
+  .policy__description {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 34px;
+  }
+}
+@media all and (max-width: 700px) {
+  .policy__description {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+}
+.policy__text {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 34px;
+  margin-bottom: 48px;
+}
+@media all and (max-width: 1560px) {
+  .policy__text {
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 34px;
+  }
+}
+@media all and (max-width: 700px) {
+  .policy__text {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 24px;
   }
 }
 
@@ -1799,14 +1960,14 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1660px) {
   .menu-mobile__text {
-    font-size: 76px;
+    font-size: 56px;
     font-weight: 700;
     line-height: 80px;
   }
 }
 @media all and (max-width: 1300px) {
   .menu-mobile__text {
-    font-size: 56px;
+    font-size: 48px;
     font-weight: 700;
     line-height: 80px;
   }
