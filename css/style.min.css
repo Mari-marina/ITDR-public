@@ -3285,6 +3285,7 @@ h2, [class*=__subtitle] {
 }
 .modal-window__block {
   display: flex;
+  align-items: center;
 }
 .modal-window__input {
   border-bottom: solid 1px #6000DB;
