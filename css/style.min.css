@@ -3346,7 +3346,7 @@ h2, [class*=__subtitle] {
   line-height: 28px;
   color: #443D5E;
   text-align: center;
-  margin-top: 16px;
+  margin: 16px 0 32px;
   display: flex;
   align-items: center;
   justify-content: center;
