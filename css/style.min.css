@@ -688,6 +688,11 @@ p, h2, h3 {
   width: 96px;
   top: 80px;
 }
+@media all and (max-width: 1660px) {
+  .footer__img_second {
+    width: 60px;
+  }
+}
 @media all and (max-width: 1030px) {
   .footer__img_second {
     width: 64px;
@@ -1471,6 +1476,9 @@ p, h2, h3 {
     height: 246px;
   }
 }
+.blog__more {
+  cursor: pointer;
+}
 
 .about__wrapper {
   overflow-x: scroll;
@@ -1684,6 +1692,7 @@ body, html {
   overflow: hidden;
   white-space: nowrap;
   font-size: 100px;
+  cursor: pointer;
 }
 @media all and (max-width: 1000px) {
   .marquee {
@@ -2255,6 +2264,11 @@ h2, [class*=__subtitle] {
   justify-content: space-between;
   flex-wrap: wrap;
 }
+@media all and (max-width: 1660px) {
+  .blog-window__wrap-button {
+    max-width: 600px;
+  }
+}
 .blog-window__text {
   font-family: "Roboto";
   font-size: 14px;
@@ -2284,6 +2298,11 @@ h2, [class*=__subtitle] {
 .blog-window__image {
   max-width: 471px;
   width: 100%;
+}
+@media all and (max-width: 1660px) {
+  .blog-window__btn {
+    font-size: 16px;
+  }
 }
 .blog-window__text-color {
   font-size: 24px;
@@ -3755,5 +3774,113 @@ h2, [class*=__subtitle] {
     font-size: 16px;
     font-weight: 500;
     line-height: 20px;
+  }
+}
+
+.ticker-modal {
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.305);
+  z-index: 5;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  display: none;
+}
+.ticker-modal__window {
+  background: #fff;
+  padding: 48px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  max-width: 868px;
+  width: 100%;
+  margin: 32px;
+}
+@media all and (max-width: 1660px) {
+  .ticker-modal__window {
+    max-width: 600px;
+  }
+}
+@media all and (max-width: 800px) {
+  .ticker-modal__window {
+    padding: 16px;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    -ms-border-radius: 16px;
+    -o-border-radius: 16px;
+  }
+}
+.ticker-modal__text {
+  margin: 32px 0 100px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+}
+@media all and (max-width: 1600px) {
+  .ticker-modal__text {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22px;
+  }
+}
+@media all and (max-width: 800px) {
+  .ticker-modal__text {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    margin: 16px 0 60px;
+  }
+}
+.ticker-modal__btn {
+  margin-top: 16px;
+  margin-bottom: 18px;
+}
+.ticker-modal__subtitle {
+  font-size: 96px;
+  max-width: 600px;
+  width: 100%;
+}
+@media all and (max-width: 1660px) {
+  .ticker-modal__subtitle {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
+@media all and (max-width: 900px) {
+  .ticker-modal__subtitle {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+  }
+}
+@media all and (max-width: 700px) {
+  .ticker-modal__subtitle {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    max-width: 280px;
+  }
+}
+@media all and (max-width: 500px) {
+  .ticker-modal__subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+  }
+}
+
+.cross-modal {
+  cursor: pointer;
+  position: absolute;
+  right: 4px;
+  top: 4px;
+}
+@media all and (max-width: 1660px) {
+  .cross-modal {
+    width: 60px;
   }
 }
