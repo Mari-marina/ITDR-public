@@ -1733,9 +1733,9 @@ body, html {
 }
 @media all and (max-width: 1660px) {
   .ticker__text {
-    font-size: 56px;
+    font-size: 46px;
     font-weight: 700;
-    line-height: 70px;
+    line-height: 50px;
   }
 }
 @media all and (max-width: 1000px) {
@@ -1768,6 +1768,11 @@ body, html {
   margin-left: -100px;
   position: relative;
 }
+@media all and (max-width: 1660px) {
+  .slider {
+    height: 90px;
+  }
+}
 @media all and (max-width: 930px) {
   .slider {
     height: 74px;
@@ -1786,6 +1791,11 @@ body, html {
 .slider .slide {
   height: 100px;
   width: 250px;
+}
+@media all and (max-width: 1660px) {
+  .slider .slide {
+    height: 90px;
+  }
 }
 @media all and (max-width: 930px) {
   .slider .slide {
@@ -2154,6 +2164,11 @@ h2, [class*=__subtitle] {
   align-items: center;
   max-width: 420px;
   width: 100%;
+}
+@media all and (max-width: 1660px) {
+  .menu-mobile__block-wrap {
+    max-width: 380px;
+  }
 }
 @media all and (max-width: 800px) {
   .menu-mobile__block-wrap {
@@ -3105,7 +3120,7 @@ h2, [class*=__subtitle] {
   }
 }
 .project__subtitle_one::before {
-  background: url(./images/project/icon1p.svg) no-repeat;
+  background: url(./../images/project/icon1p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
@@ -3115,7 +3130,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__subtitle_one::before {
-    background: url(./images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 5px;
@@ -3123,7 +3138,7 @@ h2, [class*=__subtitle] {
   }
 }
 .project__subtitle_two::before {
-  background: url(./images/project/icon2p.svg) no-repeat;
+  background: url(./../images/project/icon2p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
@@ -3133,7 +3148,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__subtitle_two::before {
-    background: url(./images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 5px;
@@ -3141,7 +3156,7 @@ h2, [class*=__subtitle] {
   }
 }
 .project__subtitle_three::before {
-  background: url(./images/project/icon3p.svg) no-repeat;
+  background: url(./../images/project/icon3p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
@@ -3151,7 +3166,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__subtitle_three::before {
-    background: url(./images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 5px;
@@ -3159,7 +3174,7 @@ h2, [class*=__subtitle] {
   }
 }
 .project__subtitle_four::before {
-  background: url(./images/project/icon4p.svg) no-repeat;
+  background: url(./../images/project/icon4p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
@@ -3169,7 +3184,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__subtitle_four::before {
-    background: url(./images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 5px;
@@ -3837,6 +3852,22 @@ h2, [class*=__subtitle] {
 .ticker-modal__btn {
   margin-top: 16px;
   margin-bottom: 18px;
+}
+.ticker-modal__btn:hover {
+  font-size: 34px;
+}
+@media all and (max-width: 600px) {
+  .ticker-modal__btn {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 26px;
+    padding: 8px 20px;
+    margin-top: 10px;
+    margin-bottom: 8px;
+  }
+  .ticker-modal__btn:hover {
+    font-size: 26px;
+  }
 }
 .ticker-modal__subtitle {
   font-size: 96px;
