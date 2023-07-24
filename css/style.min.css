@@ -3913,3 +3913,31 @@ h2, [class*=__subtitle] {
     width: 60px;
   }
 }
+
+.slider-other {
+  transform: rotate(38deg);
+  left: -500px;
+  top: 89px;
+  position: absolute;
+  background: #B080ED;
+}
+@media all and (max-width: 1460px) {
+  .slider-other {
+    left: -280px;
+  }
+}
+@media all and (max-width: 900px) {
+  .slider-other {
+    left: -150px;
+  }
+}
+@media all and (max-width: 600px) {
+  .slider-other {
+    left: -90px;
+  }
+}
+@media all and (max-width: 500px) {
+  .slider-other {
+    left: -22px;
+  }
+}
