@@ -281,6 +281,10 @@ p, h2, h3 {
   font-family: Gilroy-Regular;
 }
 
+body {
+  overflow-x: hidden !important;
+}
+
 /**
 * БЕМ блоки используемые во всё проекте
 */
