@@ -1604,33 +1604,30 @@ p, h2, h3 {
 }
 @media all and (max-width: 1660px) {
   .projects-window__text {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 22px;
   }
 }
 @media all and (max-width: 900px) {
   .projects-window__text {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 20px;
     margin: 40px 0 80px;
+    max-width: 500px;
+    width: 100%;
   }
 }
 @media all and (max-width: 700px) {
   .projects-window__text {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
     margin: 30px 0 50px;
   }
 }
 @media all and (max-width: 500px) {
   .projects-window__text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
     margin: 16px 0 33px;
+    max-width: 250px;
   }
 }
 .projects-window__btn {
@@ -1680,6 +1677,23 @@ p, h2, h3 {
   .projects-window__wrap-btn {
     max-width: 364px;
     justify-content: flex-start;
+  }
+}
+.projects-window__ticker {
+  position: absolute;
+  top: 800px;
+  right: 200px;
+}
+@media all and (max-width: 1600px) {
+  .projects-window__ticker {
+    top: 600px;
+    right: 200px;
+  }
+}
+@media all and (max-width: 800px) {
+  .projects-window__ticker {
+    top: 1000px;
+    right: 130px;
   }
 }
 
@@ -2236,33 +2250,30 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1600px) {
   .blog-window__text_top {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 22px;
     margin: 40px 0 80px;
+    max-width: 750px;
   }
 }
 @media all and (max-width: 900px) {
   .blog-window__text_top {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 20px;
+    max-width: 600px;
   }
 }
 @media all and (max-width: 700px) {
   .blog-window__text_top {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 24px;
     margin: 30px 0 50px;
   }
 }
 @media all and (max-width: 500px) {
   .blog-window__text_top {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
     margin: 16px 0 33px;
+    max-width: 250px;
   }
 }
 .blog-window__person {
@@ -2472,17 +2483,19 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1660px) {
   .team-page__text {
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 22px;
+    max-width: 732px;
   }
 }
 @media all and (max-width: 900px) {
   .team-page__text {
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 20px;
     margin: 40px 0 80px;
+    max-width: 600px;
   }
 }
 @media all and (max-width: 700px) {
@@ -2491,6 +2504,7 @@ h2, [class*=__subtitle] {
     font-weight: 500;
     line-height: 24px;
     margin: 30px 0 50px;
+    max-width: 400px;
   }
 }
 @media all and (max-width: 500px) {
@@ -2499,6 +2513,7 @@ h2, [class*=__subtitle] {
     font-weight: 500;
     line-height: 20px;
     margin: 16px 0 33px;
+    max-width: 250px;
   }
 }
 .team-page__wrapper {
@@ -2575,6 +2590,7 @@ h2, [class*=__subtitle] {
     font-weight: 500;
     line-height: 20px;
     margin: 40px 0 80px;
+    max-width: 600px;
   }
 }
 @media all and (max-width: 700px) {
@@ -2585,6 +2601,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 500px) {
   .services__text {
     margin: 16px 0 33px;
+    max-width: 250px;
   }
 }
 .services__button {
@@ -2911,6 +2928,7 @@ h2, [class*=__subtitle] {
 
 .project__wrapper_top {
   background: black;
+  padding-bottom: 123px;
 }
 .project__subtitle_white {
   color: #fff;
@@ -2999,31 +3017,21 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1600px) {
   .project__text {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 34px;
+    line-height: 22px;
   }
 }
 @media all and (max-width: 900px) {
   .project__text {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 20px;
     margin-bottom: 30px;
-  }
-}
-@media all and (max-width: 700px) {
-  .project__text {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
   }
 }
 @media all and (max-width: 500px) {
   .project__text {
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 20px;
     margin-bottom: 24px;
   }
 }
@@ -3214,24 +3222,17 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1600px) {
   .project__item {
-    font-size: 28px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 34px;
+    line-height: 22px;
   }
 }
 @media all and (max-width: 900px) {
   .project__item {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 500;
-    line-height: 32px;
+    line-height: 20px;
     margin: 0 0 24px 36px;
-  }
-}
-@media all and (max-width: 700px) {
-  .project__item {
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 28px;
   }
 }
 @media all and (max-width: 520px) {
@@ -3894,13 +3895,6 @@ h2, [class*=__subtitle] {
     font-weight: 700;
     line-height: 32px;
     max-width: 280px;
-  }
-}
-@media all and (max-width: 500px) {
-  .ticker-modal__subtitle {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 33px;
   }
 }
 
