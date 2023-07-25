@@ -254,7 +254,6 @@ sup {
 .wrapper {
   display: flex;
   flex-direction: column;
-  min-height: 100%;
   /** Поменять на clip - если используется в проекте position: sticky */
   overflow: hidden;
 }
@@ -3917,8 +3916,7 @@ h2, [class*=__subtitle] {
 .slider-other {
   transform: rotate(38deg);
   left: -500px;
-  top: 89px;
-  position: absolute;
+  top: 98px;
   background: #B080ED;
 }
 @media all and (max-width: 1460px) {
