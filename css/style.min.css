@@ -2585,6 +2585,7 @@ h2, [class*=__subtitle] {
     font-size: 18px;
     font-weight: 500;
     line-height: 22px;
+    margin: 48px 0 100px;
   }
 }
 @media all and (max-width: 900px) {
@@ -2619,11 +2620,11 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1640px) {
   .services__button {
-    max-width: 500px;
+    max-width: 450px;
     font-size: 30px;
     font-weight: 700;
     line-height: 34px;
-    height: 90px;
+    height: 80px;
   }
 }
 @media all and (max-width: 1100px) {
