@@ -373,7 +373,7 @@ body {
 .header {
   z-index: 5;
   padding-top: 24px;
-  padding-bottom: 6px;
+  padding-bottom: 16px;
   position: fixed;
   width: 100%;
   background: #ffffff;
@@ -381,6 +381,7 @@ body {
 @media all and (max-width: 700px) {
   .header {
     padding-top: 18px;
+    padding-bottom: 10px;
   }
 }
 
@@ -725,6 +726,11 @@ body {
   width: 428px;
   height: 84px;
   color: #fff;
+  font-family: Gilroy-Regular;
+  transition: 0.3s;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 26px;
 }
 @media all and (max-width: 1660px) {
   .menu__button, .menu .button {
@@ -739,6 +745,7 @@ body {
   font-size: 40px;
   font-weight: 500;
   line-height: 42px;
+  transition: 0.3s;
 }
 @media all and (max-width: 1660px) {
   .menu__button:hover {
@@ -1026,12 +1033,14 @@ body {
   }
 }
 .best__wrapper {
+  margin-top: 64px;
   display: flex;
   justify-content: space-between;
 }
 @media all and (max-width: 1439px) {
   .best__wrapper {
     overflow-x: scroll;
+    margin-top: 32px;
   }
 }
 
@@ -1139,12 +1148,14 @@ body {
   line-height: 28px;
   font-family: Gilroy-Light;
   margin: 0 4px 15px 58px;
+  margin-top: 10px;
 }
 @media all and (max-width: 900px) {
   .projects__text {
     font-size: 16px;
     font-weight: 300;
     line-height: 26px;
+    margin-top: 4px;
   }
 }
 @media all and (max-width: 600px) {
@@ -1162,7 +1173,7 @@ body {
   background: transparent;
   color: #6000DB;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 34px;
   font-family: Gilroy-Regular;
   max-width: 402px;
@@ -1180,7 +1191,7 @@ body {
     max-width: 280px;
     height: 50px;
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
   }
 }
@@ -1298,9 +1309,9 @@ body {
 }
 @media all and (max-width: 1660px) {
   .team__text {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 500;
-    line-height: 28px;
+    line-height: 26px;
   }
 }
 @media all and (max-width: 970px) {
@@ -1310,16 +1321,16 @@ body {
 }
 @media all and (max-width: 900px) {
   .team__text {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 26px;
+    line-height: 24px;
   }
 }
 @media all and (max-width: 700px) {
   .team__text {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 500;
-    line-height: 24px;
+    line-height: 22px;
   }
 }
 @media all and (max-width: 500px) {
@@ -1382,6 +1393,7 @@ body {
   overflow: hidden;
 }
 .blog__text {
+  margin-top: 24px;
   font-size: 14px;
   font-weight: 300;
   line-height: 24px;
@@ -1391,6 +1403,11 @@ body {
   -webkit-line-clamp: 5;
   -webkit-box-orient: vertical;
   overflow: hidden;
+}
+@media all and (max-width: 700px) {
+  .blog__text {
+    margin-top: 16px;
+  }
 }
 .blog__wrap {
   max-width: 378px;
@@ -1441,6 +1458,10 @@ body {
 }
 .blog__text-color {
   margin-right: 18px;
+  font-family: Gilroy-Light;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
 }
 .blog__wrapper {
   display: flex;
@@ -1585,11 +1606,11 @@ body {
 }
 
 .projects-window {
-  margin-top: 224px;
+  margin-top: 130px;
 }
 @media all and (max-width: 700px) {
   .projects-window {
-    margin-top: 160px;
+    margin-top: 110px;
   }
 }
 @media all and (max-width: 500px) {
@@ -1719,8 +1740,8 @@ body, html {
 
 .marquee span {
   display: inline-block;
-  animation: marquee 7s linear infinite;
-  -webkit-animation: marquee 7s linear infinite;
+  animation: marquee 12s linear infinite;
+  -webkit-animation: marquee 12s linear infinite;
 }
 
 @keyframes marquee {
@@ -1960,8 +1981,8 @@ h2, [class*=__subtitle] {
 }
 
 [class*=__subtitle_second] {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 42px;
   color: #6000DB;
   font-family: Gilroy-Regular;
@@ -2225,11 +2246,11 @@ h2, [class*=__subtitle] {
 }
 
 .blog-window {
-  margin-top: 224px;
+  margin-top: 130px;
 }
 @media all and (max-width: 700px) {
   .blog-window {
-    margin-top: 160px;
+    margin-top: 110px;
   }
 }
 @media all and (max-width: 500px) {
@@ -2464,11 +2485,11 @@ h2, [class*=__subtitle] {
 }
 
 .team-page__subtitle {
-  margin-top: 224px;
+  margin-top: 130px;
 }
 @media all and (max-width: 700px) {
   .team-page__subtitle {
-    margin-top: 160px;
+    margin-top: 110px;
   }
 }
 @media all and (max-width: 500px) {
@@ -2559,11 +2580,11 @@ h2, [class*=__subtitle] {
 }
 
 .services__subtitle {
-  margin-top: 224px;
+  margin-top: 150px;
 }
 @media all and (max-width: 700px) {
   .services__subtitle {
-    margin-top: 160px;
+    margin-top: 140px;
   }
 }
 @media all and (max-width: 500px) {
@@ -3416,6 +3437,7 @@ h2, [class*=__subtitle] {
   align-items: center;
 }
 .modal-window__input {
+  font-family: Gilroy-Regular;
   border-bottom: solid 1px #6000DB;
   max-height: 85px;
   height: 100%;
@@ -3495,7 +3517,7 @@ h2, [class*=__subtitle] {
 }
 .modal-window__text {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 26px;
   margin: 32px 0 120px;
   max-width: 700px;
@@ -3504,7 +3526,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 900px) {
   .modal-window__text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 20px;
     margin: 24px 0 24px;
   }
@@ -3512,7 +3534,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 600px) {
   .modal-window__text {
     font-size: 14px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 16px;
     margin: 16px 0 24px;
   }
@@ -3649,7 +3671,7 @@ h2, [class*=__subtitle] {
 .button-wrapper {
   position: relative;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   line-height: 20px;
 }
@@ -3752,8 +3774,8 @@ h2, [class*=__subtitle] {
 }
 
 [class*=__subtitle_second] {
-  font-size: 30px;
-  font-weight: 500;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 42px;
   color: #6000DB;
   font-family: Gilroy-Regular;
@@ -3917,7 +3939,7 @@ h2, [class*=__subtitle] {
 .slider-other {
   transform: rotate(38deg);
   left: -500px;
-  top: 98px;
+  top: 44px;
   background: #B080ED;
 }
 @media all and (max-width: 1460px) {
@@ -3933,6 +3955,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 600px) {
   .slider-other {
     left: -90px;
+    top: 108px;
   }
 }
 @media all and (max-width: 500px) {
