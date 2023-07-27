@@ -1622,14 +1622,14 @@ body {
   max-width: 832px;
   width: 100%;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   margin: 48px 0 120px;
 }
 @media all and (max-width: 1660px) {
   .projects-window__text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
   }
 }
@@ -1655,6 +1655,7 @@ body {
   }
 }
 .projects-window__btn {
+  font-family: Gilroy-Regular;
   border-radius: 120px;
   border: 1px solid var(--unnamed, #6000DB);
   background: var(--unnamed, #fff);
@@ -2349,6 +2350,10 @@ h2, [class*=__subtitle] {
   max-width: 471px;
   width: 100%;
 }
+.blog-window__btn {
+  font-family: Gilroy-Regular;
+  font-weight: 400;
+}
 @media all and (max-width: 1660px) {
   .blog-window__btn {
     font-size: 16px;
@@ -2501,14 +2506,14 @@ h2, [class*=__subtitle] {
   max-width: 832px;
   width: 100%;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   margin: 48px 0 120px;
 }
 @media all and (max-width: 1660px) {
   .team-page__text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
     max-width: 732px;
   }
@@ -2516,7 +2521,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 900px) {
   .team-page__text {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 20px;
     margin: 40px 0 80px;
     max-width: 600px;
@@ -2541,6 +2546,7 @@ h2, [class*=__subtitle] {
   }
 }
 .team-page__wrapper {
+  margin-top: 223px;
   margin-bottom: 120px;
   display: flex;
   flex-wrap: wrap;
@@ -2553,6 +2559,7 @@ h2, [class*=__subtitle] {
   .team-page__wrapper {
     grid-row-gap: 32px;
     grid-column-gap: 32px;
+    margin-top: 180px;
   }
 }
 @media all and (max-width: 1530px) {
@@ -2565,6 +2572,7 @@ h2, [class*=__subtitle] {
   .team-page__wrapper {
     grid-template-columns: repeat(2, 1fr);
     margin-bottom: 80px;
+    margin-top: 50px;
   }
 }
 @media all and (max-width: 600px) {
@@ -2572,6 +2580,7 @@ h2, [class*=__subtitle] {
     grid-template-columns: repeat(2, 1fr);
     grid-row-gap: 16px;
     grid-column-gap: 16px;
+    margin-top: 0px;
   }
 }
 .team-page__wrap {
@@ -3014,14 +3023,14 @@ h2, [class*=__subtitle] {
 .project__description {
   color: #6000DB;
   font-size: 24px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 26px;
   margin-bottom: 32px;
 }
 @media all and (max-width: 700px) {
   .project__description {
     font-size: 20px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 28px;
     margin-bottom: 20px;
   }
@@ -3034,16 +3043,26 @@ h2, [class*=__subtitle] {
     margin-bottom: 16px;
   }
 }
+.project__wrap-content_bottom {
+  margin-top: 120px;
+  max-width: 1170px;
+  width: 100%;
+}
+@media all and (max-width: 1300px) {
+  .project__wrap-content_bottom {
+    margin-top: 80px;
+  }
+}
 .project__text {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   margin-bottom: 48px;
 }
 @media all and (max-width: 1600px) {
   .project__text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
   }
 }
@@ -3152,75 +3171,75 @@ h2, [class*=__subtitle] {
     line-height: 20px;
   }
 }
-.project__subtitle_one::before {
+.project__one::before {
   background: url(./images/project/icon1p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
   height: 48px;
-  top: 0px;
+  top: -8px;
   left: -72px;
 }
 @media all and (max-width: 520px) {
-  .project__subtitle_one::before {
+  .project__one::before {
     background: url(./images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
-    top: 5px;
+    top: 0px;
     left: -28px;
   }
 }
-.project__subtitle_two::before {
+.project__two::before {
   background: url(./images/project/icon2p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
   height: 48px;
-  top: 0px;
+  top: -8px;
   left: -72px;
 }
 @media all and (max-width: 520px) {
-  .project__subtitle_two::before {
+  .project__two::before {
     background: url(./images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
-    top: 5px;
+    top: 0px;
     left: -28px;
   }
 }
-.project__subtitle_three::before {
+.project__three::before {
   background: url(./images/project/icon3p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
   height: 48px;
-  top: 0px;
+  top: -8px;
   left: -72px;
 }
 @media all and (max-width: 520px) {
-  .project__subtitle_three::before {
+  .project__three::before {
     background: url(./images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
-    top: 5px;
+    top: 0px;
     left: -28px;
   }
 }
-.project__subtitle_four::before {
+.project__four::before {
   background: url(./images/project/icon4p.svg) no-repeat;
   content: "";
   position: absolute;
   width: 48px;
   height: 48px;
-  top: 0px;
+  top: -8px;
   left: -72px;
 }
 @media all and (max-width: 520px) {
-  .project__subtitle_four::before {
+  .project__four::before {
     background: url(./images/project/icon1m.svg) no-repeat;
     width: 22px;
     height: 20px;
-    top: 5px;
+    top: 0px;
     left: -28px;
   }
 }
@@ -3237,7 +3256,7 @@ h2, [class*=__subtitle] {
   position: absolute;
   width: 5px;
   height: 5px;
-  top: 0px;
+  top: -8px;
   left: -28px;
 }
 @media all and (max-width: 520px) {
