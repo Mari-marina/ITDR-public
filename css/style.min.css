@@ -2606,14 +2606,14 @@ h2, [class*=__subtitle] {
   max-width: 730px;
   width: 100%;
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   margin: 48px 0 120px;
 }
 @media all and (max-width: 1650px) {
   .services__text {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
     margin: 48px 0 100px;
   }
@@ -2751,50 +2751,9 @@ h2, [class*=__subtitle] {
     margin: 32px 0 40px;
   }
 }
-.services__subtitle_second {
-  font-size: 74px;
-  font-weight: 700;
-  line-height: 76px;
-  font-family: Gilroy-Bold;
-  margin-bottom: 48px;
-  max-width: 1200px;
-  width: 100%;
-  color: #443D5E;
-}
-@media all and (max-width: 1660px) {
-  .services__subtitle_second {
-    font-size: 38px;
-    font-weight: 700;
-    line-height: 40px;
-  }
-}
-@media all and (max-width: 900px) {
-  .services__subtitle_second {
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 44px;
-    margin-bottom: 36px;
-  }
-}
-@media all and (max-width: 700px) {
-  .services__subtitle_second {
-    font-size: 28px;
-    font-weight: 700;
-    line-height: 32px;
-    margin-bottom: 24px;
-  }
-}
-@media all and (max-width: 500px) {
-  .services__subtitle_second {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 33px;
-    margin-bottom: 16px;
-  }
-}
 .services__text_second {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   max-width: 1253px;
   width: 100%;
@@ -2803,7 +2762,7 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 1650px) {
   .services__text_second {
     font-size: 18px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 22px;
   }
 }
@@ -2844,7 +2803,7 @@ h2, [class*=__subtitle] {
 }
 .services__description {
   font-size: 32px;
-  font-weight: 500;
+  font-weight: 700;
   line-height: 36px;
   color: #000;
   max-width: 418px;
@@ -2853,28 +2812,28 @@ h2, [class*=__subtitle] {
 @media all and (max-width: 1600px) {
   .services__description {
     font-size: 28px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 34px;
   }
 }
 @media all and (max-width: 900px) {
   .services__description {
     font-size: 24px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 30px;
   }
 }
 @media all and (max-width: 700px) {
   .services__description {
     font-size: 22px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 26px;
   }
 }
 @media all and (max-width: 500px) {
   .services__description {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 20px;
   }
 }
@@ -2957,6 +2916,66 @@ h2, [class*=__subtitle] {
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+  }
+}
+.services__subtitle_other {
+  font-size: 74px;
+  font-weight: 700;
+  line-height: 76px;
+  font-family: Gilroy-Bold;
+  margin-bottom: 48px;
+  max-width: 1200px;
+  width: 100%;
+  color: #443D5E;
+}
+@media all and (max-width: 1660px) {
+  .services__subtitle_other {
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
+@media all and (max-width: 900px) {
+  .services__subtitle_other {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    margin-bottom: 36px;
+  }
+}
+@media all and (max-width: 700px) {
+  .services__subtitle_other {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32px;
+    margin-bottom: 24px;
+  }
+}
+@media all and (max-width: 500px) {
+  .services__subtitle_other {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 33px;
+    margin-bottom: 16px;
+  }
+}
+.services__subtitle_third {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 52px;
+}
+@media all and (max-width: 1660px) {
+  .services__subtitle_third {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+}
+@media all and (max-width: 900px) {
+  .services__subtitle_third {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
   }
 }
 
@@ -3981,4 +4000,136 @@ h2, [class*=__subtitle] {
   .slider-other {
     left: -22px;
   }
+}
+
+.name {
+  margin: 217px 0 20px;
+}
+@media all and (max-width: 1100px) {
+  .name {
+    margin: 180px 0 0px;
+  }
+}
+@media all and (max-width: 900px) {
+  .name {
+    margin: 110px 0 0px;
+  }
+}
+.name__subtitle {
+  max-width: 1200px;
+  width: 100%;
+}
+.name__desc {
+  margin: 48px 0 24px;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 34px;
+  font-family: Gilroy-Regular;
+}
+@media all and (max-width: 1600px) {
+  .name__desc {
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 28px;
+  }
+}
+@media all and (max-width: 900px) {
+  .name__desc {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 26px;
+    margin: 24px 0 24px;
+  }
+}
+.name__wrapper {
+  max-width: 1253px;
+  width: 100%;
+}
+.name__text, .name__item {
+  font-family: Gilroy-Regular;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+}
+@media all and (max-width: 1600px) {
+  .name__text, .name__item {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}
+@media all and (max-width: 900px) {
+  .name__text, .name__item {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+  }
+}
+.name__item {
+  font-family: Gilroy-Regular;
+  margin-bottom: 20px;
+}
+@media all and (max-width: 900px) {
+  .name__item {
+    margin-bottom: 12px;
+  }
+}
+.name__wrap {
+  display: flex;
+  margin: 32px 0 32px;
+}
+@media all and (max-width: 700px) {
+  .name__wrap {
+    justify-content: space-between;
+  }
+}
+.name__time {
+  font-family: Gilroy-Bold;
+  color: #6B696F;
+}
+.name__time:first-child {
+  margin-right: 64px;
+}
+@media all and (max-width: 1200px) {
+  .name__time:first-child {
+    margin-right: 40px;
+  }
+}
+@media all and (max-width: 800px) {
+  .name__time:first-child {
+    margin-right: 20px;
+  }
+}
+.name__btn {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 26px;
+  margin-right: 24px;
+}
+@media all and (max-width: 700px) {
+  .name__btn {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: Gilroy-Light;
+  }
+}
+.name__wrap-btn {
+  margin: 32px 0 32px;
+}
+@media all and (max-width: 900px) {
+  .name__wrap-btn {
+    margin: 16px 0 16px;
+  }
+}
+.name__subtitle_bottom {
+  margin: 120px 0 48px;
+}
+@media all and (max-width: 900px) {
+  .name__subtitle_bottom {
+    margin: 80px 0 24px;
+  }
+}
+.name__img {
+  width: 100%;
 }
