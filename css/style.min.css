@@ -2269,7 +2269,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 1660px) {
   .menu-mobile__text:hover {
-    font-size: 50px;
+    font-size: 52px;
     font-weight: 700;
     line-height: 76px;
   }
