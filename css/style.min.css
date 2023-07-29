@@ -4111,6 +4111,7 @@ h2, [class*=__subtitle] {
   width: 100%;
 }
 .name__desc {
+  color: #000;
   margin: 48px 0 24px;
   font-size: 32px;
   font-weight: 700;
@@ -4137,6 +4138,7 @@ h2, [class*=__subtitle] {
   width: 100%;
 }
 .name__text, .name__item {
+  color: #000;
   font-family: Gilroy-Regular;
   font-size: 24px;
   font-weight: 700;
@@ -4157,6 +4159,7 @@ h2, [class*=__subtitle] {
   }
 }
 .name__item {
+  color: #000;
   font-family: Gilroy-Regular;
   margin-bottom: 20px;
 }
