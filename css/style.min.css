@@ -3367,7 +3367,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__two::before {
-    background: url(./../images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon2m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 0px;
@@ -3385,7 +3385,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__three::before {
-    background: url(./../images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon3m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 0px;
@@ -3403,7 +3403,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 520px) {
   .project__four::before {
-    background: url(./../images/project/icon1m.svg) no-repeat;
+    background: url(./../images/project/icon4m.svg) no-repeat;
     width: 22px;
     height: 20px;
     top: 0px;
@@ -3595,7 +3595,7 @@ h2, [class*=__subtitle] {
 }
 @media all and (max-width: 500px) {
   .project__img {
-    width: 150%;
+    object-fit: cover;
   }
 }
 
