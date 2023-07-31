@@ -3423,7 +3423,7 @@ h2, [class*=__subtitle] {
   position: absolute;
   width: 5px;
   height: 5px;
-  top: -8px;
+  top: 0px;
   left: -28px;
 }
 @media all and (max-width: 520px) {
@@ -3592,6 +3592,11 @@ h2, [class*=__subtitle] {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+@media all and (max-width: 500px) {
+  .project__img {
+    width: 150%;
+  }
 }
 
 .modal-window__wrapper {
